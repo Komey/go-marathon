@@ -69,7 +69,6 @@ type KillApplicationTasksOpts struct {
 type KillTaskOpts struct {
 	Scale bool `url:"scale,omitempty"`
 	Force bool `url:"force,omitempty"`
-	Wipe  bool `url:"wipe",omitempty`
 }
 
 // HasHealthCheckResults checks if the task has any health checks
